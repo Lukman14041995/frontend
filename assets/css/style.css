@@ -1,0 +1,45 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+}
+
+.container {
+    margin-top: 20px;
+    max-width: 900px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+}
+
+input[type="number"], input[type="text"], input[type="date"], input[type="time"] {
+    text-align: center;
+}
+
+input:read-only {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+.delete-btn {
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.delete-btn:hover {
+    color: #c82333;
+}
